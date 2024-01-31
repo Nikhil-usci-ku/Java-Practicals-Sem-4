@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Odd_Even {
+public class P05_Odd_Even {
 public static void main(String args[]) {
     int n1;
 

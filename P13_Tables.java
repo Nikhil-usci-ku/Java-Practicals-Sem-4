@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Tables {
+public class P13_Tables {
     public static void main(String[] args) {
         int num;
 

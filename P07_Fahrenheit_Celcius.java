@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Fahrenheit_Celcius {
+public class P07_Fahrenheit_Celcius {
 public static void main(String[] args) {
     float f,c;
     Scanner Scan = new Scanner(System.in);
@@ -13,3 +13,4 @@ public static void main(String[] args) {
 
 }
 }
+    

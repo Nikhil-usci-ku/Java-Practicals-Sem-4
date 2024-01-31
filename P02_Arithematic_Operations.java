@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Arithematic_Operations {
+public class P02_Arithematic_Operations {
 public static void main(String args[]) {
     int n1, n2, add, sub, mul, div;
 

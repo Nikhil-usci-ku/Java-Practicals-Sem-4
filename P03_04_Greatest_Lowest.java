@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Greatest_Lowest {
+public class P03_04_Greatest_Lowest {
 public static void main(String[] args) {
     int n1, n2, n3, small, large;
     

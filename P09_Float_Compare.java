@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Float_Compare {
+public class P09_Float_Compare {
 public static void main(String args[]) {
     float n1, n2;
 

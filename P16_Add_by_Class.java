@@ -8,7 +8,7 @@ class Add_num{
     }        
 }
 
-public class Add_by_Class{
+public class P16_Add_by_Class{
     public static void main(String[] args) {
         Scanner Scan = new Scanner(System.in);
         int a,b;

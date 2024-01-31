@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class String_Checker {
+public class P10_String_Checker {
     public static void main(String[] args) {
         String s;
 

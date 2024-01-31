@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Km_to_Mile {
+public class P06_Km_to_Mile {
     public static void main(String[] args) {
         float km,m;
         Scanner Scan = new Scanner(System.in);

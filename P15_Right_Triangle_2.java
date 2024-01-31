@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Right_Triangle_2 {
+public class P15_Right_Triangle_2 {
     public static void main(String[] args) {
         int size,c=1;
 
