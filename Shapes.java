@@ -1,5 +1,4 @@
 import java.lang.Math;
-import java.util.Scanner;
 
 class Shape{
     double area(){return 0;}
