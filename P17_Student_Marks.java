@@ -39,7 +39,7 @@ class Student {
     }
 }
 
-public class Student_Marks {
+public class P17_Student_Marks {
     public static void main(String[] args) {
         Student student = new Student();
         student.setData();

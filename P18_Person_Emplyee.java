@@ -28,7 +28,7 @@ class Employee extends Person {
     }
 }
 
-public class Person_Emplyee {
+public class P18_Person_Emplyee {
     public static void main(String[] args) {
         Person person = new Person("Anirudh Vijapuri", 30);
         Employee employee = new Employee("Akansha Singh", 25, 12345, 50000.0);

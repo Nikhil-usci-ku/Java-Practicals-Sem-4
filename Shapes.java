@@ -10,6 +10,9 @@ class Circle extends Shape{
     double area(){
         return Math.PI*Math.pow(this.radius,2);
     }
+    double perimeter(){
+        return 2*Math.PI*radius;
+    }
 }
 
 
@@ -20,8 +23,7 @@ public class Shapes {
 
         Circle Cir = new Circle();
         Cir.radius=3;
-        double areaa = Math.PI*Math.pow(3,2);
-        System.out.println(Cir.area());
-        System.out.println(areaa);
+        System.out.println("Perimeter of Circle : "+Cir.perimeter());
+        System.out.println("Area of Circle : "+Cir.area());
     }
 }
