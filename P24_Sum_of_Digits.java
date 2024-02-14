@@ -12,6 +12,6 @@ public class P24_Sum_of_Digits {
             sum+=n%10;
             n=n/10;
         }
-        System.out.println("The sum is : "+sum);
+        System.out.println("The sum is: "+sum);
     }
 }
