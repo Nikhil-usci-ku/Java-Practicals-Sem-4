@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Factorial {
+public class P23_Factorial {
     public static void main(String[] args){
         Scanner Scan = new Scanner(System.in);
         int n,f=1;
@@ -18,8 +18,5 @@ public class Factorial {
         else{
             System.out.print("Factorial of negetive number is not defined.");
         }
-
-        
-
     }
 }
