@@ -1,4 +1,5 @@
 class Product{
+    String Category = "General";
     String productId;
     String productName;
     double price;
@@ -8,14 +9,15 @@ class Product{
     price= Cost;
     };
     public void Show_Product(){
-        System.out.println("Product Category : General");
+        System.out.println("\n"+"Product Category : "+Category);
         System.out.println("Product ID : "+productId);
         System.out.println("Product Name : "+productName);
-        System.out.println("Product Price : "+price+"\n");
+        System.out.println("Product Price : "+price);
     };
 }
 
 class Electronic_P extends Product{
+    String Category = "Electronic";
     int wattage;
     public Electronic_P(String Name,String ID,double Cost,int Watt){
         super(Name, ID, Cost);
@@ -25,15 +27,16 @@ class Electronic_P extends Product{
         wattage = Watt;
     }
     public void Show_Product(){
-        System.out.println("Product Category : Electronic");
+        System.out.println("\n"+"Product Category : "+Category);
         System.out.println("Product ID : "+productId);
         System.out.println("Product Name : "+productName);
         System.out.println("Product Price : "+price);
-        System.out.println("Product Wattage : "+wattage+"W"+"\n");
+        System.out.println("Product Wattage : "+wattage+"W");
     };
 }
 
 class Clothing_P extends Product{
+    String Category = "Clothing";
     int size;
     public Clothing_P(String Name,String ID,double Cost,int Cloth_Size){
         super(Name, ID, Cost);
@@ -43,27 +46,23 @@ class Clothing_P extends Product{
         size = Cloth_Size;
     }
     public void Show_Product(){
-        System.out.println("Product Category : Clothing");
+        System.out.println("\n"+"Product Category : "+Category);
         System.out.println("Product Name : "+productId);
         System.out.println("Product Name : "+productName);
         System.out.println("Product Price : "+price);
-        System.out.println("Product Size : "+size+"\n");
+        System.out.println("Product Size : "+size);
     };
 }
 class Books_P extends Product{
+    String Category = "Books";
     int page;
     public Books_P(String Name,String ID,double Cost,int Total_Pages){
         super(Name, ID, Cost);
-        productId = ID;
-        productName = Name;
-        price = Cost;
         page = Total_Pages;
     }
+    @Override
     public void Show_Product(){
-        System.out.println("Product Category : Books");
-        System.out.println("Product Name : "+productId);
-        System.out.println("Product Name : "+productName);
-        System.out.println("Product Price : "+price);
+        super.Show_Product();
         System.out.println("Number of Pages : "+page);
     };
 }
